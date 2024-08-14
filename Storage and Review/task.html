@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="task.css" />
   </head>
   <body>
-    <h1>Hi! I'm in the inner HTML</h1>
+    <h1 id = "message">Hi! I'm in the inner HTML</h1>
     <form>
       <label for = ""> Name: </label>
-      <input type = "text">
+      <input type = "text" id = "user-name">
       <p>Choose your favorite color</p>
       <input type = "radio" id = "white" value="white" name = "fav-color">
       <label for = "">White</label><br>
@@ -21,7 +21,7 @@
       <input type = "radio" id = "purple" value="purple" name = "fav-color">
       <label for = "">Purple</label><br><br>
 
-      <button type = "button">Submit</button>
+      <button type = "button" onclick="submittedData()">Submit</button>
 
     </form>
 

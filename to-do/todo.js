@@ -1,21 +1,25 @@
 const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
+const inputDate = document.getElementById("taskDeadline");
 
 function addTask() {
   if (inputBox.value == '') {
     alert("You must write something!");
   }
+  else if ( inputDate.value == '') {
+    alert("You must fill out the date!");
+  }
   else {
     let li = document.createElement("li");
-    li.innerHTML = inputBox.value;
+    li.innerHTML = inputBox.value + " (" + inputDate.value + ")";
     listContainer.appendChild(li);
     let span = document.createElement("span");
     span.innerHTML = "\u00d7";
     li.appendChild(span);
+    inputBox.value = "";
+    inputDate.value = "";
   }
 
-
-  inputBox.value = "";
   saveData();
 }
 
@@ -39,5 +43,3 @@ function showTask() {
 }
 
 showTask();
-
-

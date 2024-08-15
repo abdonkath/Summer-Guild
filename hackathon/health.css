@@ -1,0 +1,18 @@
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.card {
+  height: 100%; /* Ensures the card takes full height of the container */
+}
+
+.card-body {
+  min-height: 150px; /* Sets a minimum height for the card body */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+

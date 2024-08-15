@@ -16,6 +16,7 @@ function submittedData() {
   if (whiteBtn.checked == true) {
     document.body.style.backgroundColor = "White";
     document.body.style.color = "Black";
+    specialImage.style.display = "flex";
   } else if (blackBtn.checked == true) {
     document.body.style.backgroundColor = "Black";
     document.body.style.color = "White";
@@ -24,6 +25,7 @@ function submittedData() {
     document.body.style.color = "White";
   } else {
     alert("Select a color");
+    specialImage.style.display = "none";
   }
 
   let h1 = document.getElementById("message");

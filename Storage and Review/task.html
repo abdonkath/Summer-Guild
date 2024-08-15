@@ -11,6 +11,7 @@
     <form>
       <label for = ""> Name: </label>
       <input type = "text" id = "user-name">
+
       <p>Choose your favorite color</p>
       <input type = "radio" id = "white" value="white" name = "fav-color">
       <label for = "">White</label><br>
@@ -21,10 +22,22 @@
       <input type = "radio" id = "purple" value="purple" name = "fav-color">
       <label for = "">Purple</label><br><br>
 
+      <p>Choose your favorite food</p>
+      <input type = "radio" id = "pizza" value="pizza" name = "fav-food">
+      <label for = "">Pizza</label><br>
+
+      <input type = "radio" id = "ramen" value="ramen" name = "fav-food">
+      <label for = "">Ramen</label><br>
+
+      <input type = "radio" id = "adobo" value="adobo" name = "fav-color">
+      <label for = "">Adobo</label><br><br>
+
       <button type = "button" onclick="submittedData()">Submit</button>
 
 
       <img id="specialImage" src="pizza.jpg" alt="Special Image" style="display: none;"  class = "resizeImg">
+      <img id="specialImage" src="ramen.jpg" alt="Special Image" style="display: none;"  class = "resizeImg2">
+      <img id="specialImage" src="adobo.jpg" alt="Special Image" style="display: none;"  class = "resizeImg3">
     </form>
 
     <script src="task.js"></script>

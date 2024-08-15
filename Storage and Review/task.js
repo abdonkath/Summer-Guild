@@ -16,7 +16,6 @@ function submittedData() {
   if (whiteBtn.checked == true) {
     document.body.style.backgroundColor = "White";
     document.body.style.color = "Black";
-    specialImage.style.display = "flex";
   } else if (blackBtn.checked == true) {
     document.body.style.backgroundColor = "Black";
     document.body.style.color = "White";

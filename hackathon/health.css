@@ -15,4 +15,16 @@
   justify-content: space-between;
 }
 
+/* Easy 1 */
+
+.whole-text {
+  margin-left: 20px;
+  margin-top: 50px;
+  position: absolute;
+  width: 700px;
+  top: 0;
+  left: 0;
+  text-align: left; 
+}
+
 

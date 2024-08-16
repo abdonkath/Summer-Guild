@@ -18,7 +18,7 @@
 /* Easy 1 */
 
 .whole-text {
-  margin-left: 20px;
+  margin-left: 45px;
   margin-top: 50px;
   position: absolute;
   width: 700px;
@@ -27,4 +27,15 @@
   text-align: left; 
 }
 
+.ul {
+  font-weight: normal;
+  font-size: 30px;
+}
 
+.list {
+  font-weight: normal;
+}
+
+.instructions {
+  width: 550px
+}
